@@ -1,4 +1,4 @@
-body{
+ody{
 		color:#333333;
 		font-family:"Lucida Sans Unicode","Lucida Grande",sans-serif;
 		margin-left:auto;
@@ -30,3 +30,47 @@ p{
 		padding:0 45px;
 		text-indent:15px;
 }
+
+#centro-distribuicao {
+	
+		margin-left:auto;
+		
+		margin-right:auto;
+		
+		 }
+		
+#rodape{
+	
+		color:#777;
+		
+		margin:30px 0;
+		
+padding:30px 0;}
+
+#rodape img{
+	
+		margin-right:30px;
+		
+		vertical-align:middle;
+		
+width:94px;}
+
+#familia-takeshi{
+	
+		float:right;
+
+		
+
+margin:0 0 10px 10px;}
+
+#familia-takeshi img{
+	
+		width:300px;
+		
+height:180px;}
+
+#centro-distribuicao img{
+	
+			width:900px;
+			
+height:472px;}
