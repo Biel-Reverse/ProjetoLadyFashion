@@ -51,10 +51,8 @@ header {position:relative;}
 
 .menu-opcoes {position:absolute;bottom:0;right:0;}
 
-.busca input[type=search] {
 
-		width:170px;
-}
+
 .busca,
 .menu-departamentos {
 	
@@ -70,9 +68,9 @@ header {position:relative;}
 					
 					width:230px;
 }
-.buscar h2,
+.busca h2,
 
-.buscar form,
+.busca form,
 
 .menu-departamentos h2 { 
 
@@ -98,7 +96,65 @@ header {position:relative;}
 	
 						clear: left;
 						
+						margin-top:10px;
+						padding-bottom:10px;
+						
 						{text-transform: uppercase;}
 }
 
 .item-menu {text-decoration:none;}
+
+busca input[type=search] {
+	
+						
+						width:170px;
+}
+
+.destaque {
+	
+			margin-top: 10px;
+}
+
+.banner-destaque img{
+	
+width:660px;}
+
+.painel{ margin:2px 0; 
+
+padding:2px;
+
+width:200px;}
+
+.novidades {float:left;}
+
+.mais-vendidos {float:right;}
+
+.painel li {display:inline-block;
+
+vertical-align:top;
+
+width:140px;
+
+margin:2px;
+
+padding-bottom:10px;}
+
+.painel h2 {font-size:24px;
+
+font-weight:bold;
+
+text-transform:uppercase;
+
+margin-bottom:10px;}
+
+.painel a {color:#333;
+
+font-size:14px;
+
+text-align:center;
+
+text-decoration:none;}
+
+.novidades{background-color:#F5DCDC;}
+
+.mais-vendidos{background-color:#DCDCF5;}
