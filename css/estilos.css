@@ -119,15 +119,16 @@ busca input[type=search] {
 	
 width:660px;}
 
-.painel{ margin:2px 0; 
+.painel{ margin:10px 0; 
 
-padding:2px;
+padding:10px;
 
-width:200px;}
+width:445px;}
 
-.novidades {float:left;}
+.novidades {float:left;background-color:#F5DCDC;}
 
-.mais-vendidos {float:right;}
+
+.mais-vendidos {float:right;background-color:#DCDCF5;}
 
 .painel li {display:inline-block;
 
@@ -155,6 +156,39 @@ text-align:center;
 
 text-decoration:none;}
 
-.novidades{background-color:#F5DCDC;}
+footer {padding:20px 0;clear:both;background-image: url(../Images/fundo-rodape.png);}
 
-.mais-vendidos{background-color:#DCDCF5;}
+.social a { 
+
+			/* tamanho da imagem */
+			
+			height:32px;
+			
+			width:32px;
+			
+			/* image replacement */
+			
+			display: block;
+			
+			text-indent: -9999px;
+			
+			
+}
+
+.social a[href*="facebook.com"] {
+	
+						background-image: url(../Images/facebook.JFIF);
+}
+
+.social a[href*="instagram.com"] {
+	
+	
+			background-image: url(../Images/instagram.JFIF);
+}
+
+.social a[href*="twitter.com"] {
+	
+		background-image: url(../Images/twitter.PNG);
+}
+
+footer.container{position:relative;}
